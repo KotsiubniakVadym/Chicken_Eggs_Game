@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		5A47544A2EC397BF00C5A19C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A4754342EC397BC00C5A19C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A47543B2EC397BC00C5A19C;
+			remoteInfo = Chicken_Eggs_Game;
+		};
+		5A4754542EC397BF00C5A19C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A4754342EC397BC00C5A19C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A47543B2EC397BC00C5A19C;
+			remoteInfo = Chicken_Eggs_Game;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A47543C2EC397BC00C5A19C /* Chicken_Eggs_Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chicken_Eggs_Game.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A4754492EC397BF00C5A19C /* Chicken_Eggs_GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Chicken_Eggs_GameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A4754532EC397BF00C5A19C /* Chicken_Eggs_GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Chicken_Eggs_GameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5A47543E2EC397BC00C5A19C /* Chicken_Eggs_Game */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Chicken_Eggs_Game;
+			sourceTree = "<group>";
+		};
+		5A47544C2EC397BF00C5A19C /* Chicken_Eggs_GameTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Chicken_Eggs_GameTests;
+			sourceTree = "<group>";
+		};
+		5A4754562EC397BF00C5A19C /* Chicken_Eggs_GameUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Chicken_Eggs_GameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A4754392EC397BC00C5A19C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4754462EC397BF00C5A19C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4754502EC397BF00C5A19C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A4754332EC397BC00C5A19C = {
+			isa = PBXGroup;
+			children = (
+				5A47543E2EC397BC00C5A19C /* Chicken_Eggs_Game */,
+				5A47544C2EC397BF00C5A19C /* Chicken_Eggs_GameTests */,
+				5A4754562EC397BF00C5A19C /* Chicken_Eggs_GameUITests */,
+				5A47543D2EC397BC00C5A19C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A47543D2EC397BC00C5A19C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A47543C2EC397BC00C5A19C /* Chicken_Eggs_Game.app */,
+				5A4754492EC397BF00C5A19C /* Chicken_Eggs_GameTests.xctest */,
+				5A4754532EC397BF00C5A19C /* Chicken_Eggs_GameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A47543B2EC397BC00C5A19C /* Chicken_Eggs_Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A47545D2EC397BF00C5A19C /* Build configuration list for PBXNativeTarget "Chicken_Eggs_Game" */;
+			buildPhases = (
+				5A4754382EC397BC00C5A19C /* Sources */,
+				5A4754392EC397BC00C5A19C /* Frameworks */,
+				5A47543A2EC397BC00C5A19C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5A47543E2EC397BC00C5A19C /* Chicken_Eggs_Game */,
+			);
+			name = Chicken_Eggs_Game;
+			packageProductDependencies = (
+			);
+			productName = Chicken_Eggs_Game;
+			productReference = 5A47543C2EC397BC00C5A19C /* Chicken_Eggs_Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A4754482EC397BF00C5A19C /* Chicken_Eggs_GameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A4754602EC397BF00C5A19C /* Build configuration list for PBXNativeTarget "Chicken_Eggs_GameTests" */;
+			buildPhases = (
+				5A4754452EC397BF00C5A19C /* Sources */,
+				5A4754462EC397BF00C5A19C /* Frameworks */,
+				5A4754472EC397BF00C5A19C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A47544B2EC397BF00C5A19C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5A47544C2EC397BF00C5A19C /* Chicken_Eggs_GameTests */,
+			);
+			name = Chicken_Eggs_GameTests;
+			packageProductDependencies = (
+			);
+			productName = Chicken_Eggs_GameTests;
+			productReference = 5A4754492EC397BF00C5A19C /* Chicken_Eggs_GameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A4754522EC397BF00C5A19C /* Chicken_Eggs_GameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A4754632EC397BF00C5A19C /* Build configuration list for PBXNativeTarget "Chicken_Eggs_GameUITests" */;
+			buildPhases = (
+				5A47544F2EC397BF00C5A19C /* Sources */,
+				5A4754502EC397BF00C5A19C /* Frameworks */,
+				5A4754512EC397BF00C5A19C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A4754552EC397BF00C5A19C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5A4754562EC397BF00C5A19C /* Chicken_Eggs_GameUITests */,
+			);
+			name = Chicken_Eggs_GameUITests;
+			packageProductDependencies = (
+			);
+			productName = Chicken_Eggs_GameUITests;
+			productReference = 5A4754532EC397BF00C5A19C /* Chicken_Eggs_GameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A4754342EC397BC00C5A19C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					5A47543B2EC397BC00C5A19C = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					5A4754482EC397BF00C5A19C = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 5A47543B2EC397BC00C5A19C;
+					};
+					5A4754522EC397BF00C5A19C = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 5A47543B2EC397BC00C5A19C;
+					};
+				};
+			};
+			buildConfigurationList = 5A4754372EC397BC00C5A19C /* Build configuration list for PBXProject "Chicken_Eggs_Game" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A4754332EC397BC00C5A19C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5A47543D2EC397BC00C5A19C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A47543B2EC397BC00C5A19C /* Chicken_Eggs_Game */,
+				5A4754482EC397BF00C5A19C /* Chicken_Eggs_GameTests */,
+				5A4754522EC397BF00C5A19C /* Chicken_Eggs_GameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A47543A2EC397BC00C5A19C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4754472EC397BF00C5A19C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4754512EC397BF00C5A19C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A4754382EC397BC00C5A19C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4754452EC397BF00C5A19C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A47544F2EC397BF00C5A19C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A47544B2EC397BF00C5A19C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A47543B2EC397BC00C5A19C /* Chicken_Eggs_Game */;
+			targetProxy = 5A47544A2EC397BF00C5A19C /* PBXContainerItemProxy */;
+		};
+		5A4754552EC397BF00C5A19C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A47543B2EC397BC00C5A19C /* Chicken_Eggs_Game */;
+			targetProxy = 5A4754542EC397BF00C5A19C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5A47545B2EC397BF00C5A19C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = UU5J8FSJMX;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A47545C2EC397BF00C5A19C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = UU5J8FSJMX;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A47545E2EC397BF00C5A19C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UU5J8FSJMX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kotsiubniak.Chicken-Eggs-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A47545F2EC397BF00C5A19C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UU5J8FSJMX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kotsiubniak.Chicken-Eggs-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5A4754612EC397BF00C5A19C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UU5J8FSJMX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kotsiubniak.Chicken-Eggs-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chicken_Eggs_Game.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Chicken_Eggs_Game";
+			};
+			name = Debug;
+		};
+		5A4754622EC397BF00C5A19C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UU5J8FSJMX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kotsiubniak.Chicken-Eggs-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chicken_Eggs_Game.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Chicken_Eggs_Game";
+			};
+			name = Release;
+		};
+		5A4754642EC397BF00C5A19C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UU5J8FSJMX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kotsiubniak.Chicken-Eggs-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Chicken_Eggs_Game;
+			};
+			name = Debug;
+		};
+		5A4754652EC397BF00C5A19C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UU5J8FSJMX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kotsiubniak.Chicken-Eggs-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Chicken_Eggs_Game;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A4754372EC397BC00C5A19C /* Build configuration list for PBXProject "Chicken_Eggs_Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A47545B2EC397BF00C5A19C /* Debug */,
+				5A47545C2EC397BF00C5A19C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A47545D2EC397BF00C5A19C /* Build configuration list for PBXNativeTarget "Chicken_Eggs_Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A47545E2EC397BF00C5A19C /* Debug */,
+				5A47545F2EC397BF00C5A19C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A4754602EC397BF00C5A19C /* Build configuration list for PBXNativeTarget "Chicken_Eggs_GameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A4754612EC397BF00C5A19C /* Debug */,
+				5A4754622EC397BF00C5A19C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A4754632EC397BF00C5A19C /* Build configuration list for PBXNativeTarget "Chicken_Eggs_GameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A4754642EC397BF00C5A19C /* Debug */,
+				5A4754652EC397BF00C5A19C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A4754342EC397BC00C5A19C /* Project object */;
+}
