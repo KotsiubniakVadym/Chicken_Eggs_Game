@@ -11,7 +11,7 @@ import SwiftUI
 struct Chicken_Eggs_GameApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            GameView()
         }
     }
 }
