@@ -9,9 +9,18 @@ import SwiftUI
 
 @main
 struct Chicken_Eggs_GameApp: App {
+    
+    @State private var isLoading: Bool = true
+    
     var body: some Scene {
         WindowGroup {
-            GameView()
+            Group {
+                if isLoading {
+                    LoadingView(isLoading: $isLoading)
+                } else {
+                    GameView()
+                }
+            }
         }
     }
 }
