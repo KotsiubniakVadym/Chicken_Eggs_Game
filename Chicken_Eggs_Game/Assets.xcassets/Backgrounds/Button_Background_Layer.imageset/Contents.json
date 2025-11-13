@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Button_Background_Layer.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

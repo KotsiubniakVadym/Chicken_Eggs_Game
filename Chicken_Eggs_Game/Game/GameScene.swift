@@ -8,13 +8,20 @@
 import SpriteKit
 import GameplayKit
 
-class GameScene: SKScene {
+protocol GameSceneDelegate: AnyObject {
+    func didGameOver()
+}
+
+final class GameScene: SKScene, SKPhysicsContactDelegate {
+    
+    weak var gameDelegate: GameSceneDelegate?
     
     private var timeIntervalEggsDrop: TimeInterval = 2.0
     private var score = 0
     private var scoreLabel: SKLabelNode!
     private let background = SKSpriteNode(imageNamed: "Game_Background")
     private var spawnTimer: Timer?
+    private var fallenEggsCount = 0
     
     override func didMove(to view: SKView) {
         
@@ -22,6 +29,7 @@ class GameScene: SKScene {
         addScoreLabel()
         
         physicsWorld.gravity = CGVector(dx: 0, dy: -1)
+        physicsWorld.contactDelegate = self
         
         // Create eggs node
         spawnTimer = Timer.scheduledTimer(timeInterval: timeIntervalEggsDrop, target: self, selector: #selector(spawnEggs), userInfo: nil, repeats: true)
@@ -32,7 +40,7 @@ class GameScene: SKScene {
             
             let location = touch.location(in: self)
             let touchedNode = atPoint(location)
-        
+            
             // Check is node which touched user is egg
             if touchedNode.name == "egg" || (touchedNode as? SKSpriteNode)?.texture?.description.contains("Eggs") == true {
                 touchedNode.removeFromParent()
@@ -47,7 +55,13 @@ class GameScene: SKScene {
         //TODO: - create logic when user lost
         for node in children {
             if node.position.y < frame.minY - 50 {
+                if node.name == "egg" {
+                    fallenEggsCount += 1
+                }
                 node.removeFromParent()
+                if fallenEggsCount >= 3 {
+                    gameOver()
+                }
             }
         }
     }
@@ -58,7 +72,7 @@ class GameScene: SKScene {
     
     @objc func spawnEggs() {
         let numberOfEggs = Int.random(in: 1...3)
-           
+        
         for _ in 0..<numberOfEggs {
             
             let egg = SKSpriteNode(imageNamed: "Green_Egg")
@@ -90,5 +104,11 @@ class GameScene: SKScene {
         scoreLabel.fontColor = SKColor.white
         scoreLabel.position = CGPoint(x: frame.midX, y: frame.maxY - 50)
         addChild(scoreLabel)
+    }
+    
+    private func gameOver() {
+        physicsWorld.speed = 0
+        removeAllActions()
+        gameDelegate?.didGameOver()
     }
 }

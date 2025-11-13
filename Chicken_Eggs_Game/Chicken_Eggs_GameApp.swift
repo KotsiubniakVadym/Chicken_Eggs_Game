@@ -10,16 +10,17 @@ import SwiftUI
 @main
 struct Chicken_Eggs_GameApp: App {
     
-    @State private var isLoading: Bool = true
+    @State private var screen: Screen = .loading
     
     var body: some Scene {
         WindowGroup {
-            Group {
-                if isLoading {
-                    LoadingView(isLoading: $isLoading)
-                } else {
-                    GameView()
-                }
+            switch screen {
+            case .loading:
+                LoadingView(screen: $screen)
+            case .home:
+                HomeView(screen: $screen)
+            case .game:
+                GameView(viewModel: .init(screen: $screen))
             }
         }
     }

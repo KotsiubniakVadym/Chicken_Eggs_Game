@@ -11,7 +11,7 @@ struct LoadingView: View {
     
     @State private var progress: Double = 0.0
     @State private var timer: Timer? = nil
-    @Binding var isLoading: Bool
+    @Binding var screen: Screen
     
     var body: some View {
         ZStack {
@@ -23,6 +23,7 @@ struct LoadingView: View {
             Image("Chicken_Menu")
                 .resizable()
                 .scaledToFit()
+                .padding(.horizontal, 20)
             
             VStack {
                 Spacer()
@@ -46,7 +47,7 @@ struct LoadingView: View {
             } else {
                 timer.invalidate()
                 DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
-                    isLoading = false
+                    screen = .home
                 }
             }
         }
