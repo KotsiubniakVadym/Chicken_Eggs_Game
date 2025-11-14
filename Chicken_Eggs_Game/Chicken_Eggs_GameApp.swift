@@ -23,6 +23,10 @@ struct Chicken_Eggs_GameApp: App {
                 GameView(viewModel: .init(screen: $screen))
             case .menu:
                 MenuView(screen: $screen)
+            case .info:
+                InfoView(screen: $screen, viewModel: .init())
+            case .setting:
+                SettingsView(screen: $screen)
             }
         }
     }

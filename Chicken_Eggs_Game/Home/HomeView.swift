@@ -42,7 +42,7 @@ struct HomeView: View {
                     .padding(.trailing, 20)
                     
                     Button(action: {
-                        print("pick info")
+                        changeScreen(changeScreen: .info)
                     }, label: {
                         ZStack(alignment: .center) {
                             Image("Info_Button")

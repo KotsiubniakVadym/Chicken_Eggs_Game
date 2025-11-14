@@ -47,6 +47,9 @@ final class GameScene: SKScene, SKPhysicsContactDelegate {
                 
                 score += 1
                 scoreLabel.text = "Score: \(score)"
+                if score == 20 {
+                    gameOver()
+                }
             }
         }
     }

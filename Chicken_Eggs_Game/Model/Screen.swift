@@ -10,4 +10,6 @@ enum Screen {
     case home
     case game
     case menu
+    case info
+    case setting
 }

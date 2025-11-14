@@ -67,7 +67,7 @@ struct MenuView: View {
                     .padding(.horizontal, 100)
                     
                     Button(action: {
-                        print("pick setting")
+                        changeScreen(changeScreen: .setting)
                     }, label: {
                         ZStack(alignment: .center) {
                             Image("Button_Background_Layer")
