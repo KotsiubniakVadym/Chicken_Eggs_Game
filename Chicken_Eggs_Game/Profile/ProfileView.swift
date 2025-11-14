@@ -40,8 +40,12 @@ struct ProfileView: View {
             VStack(alignment: .center) {
                 ZStack(alignment: .top) {
                     RoundedRectangle(cornerRadius: 10)
-                        .fill(CustomColor.purpleBackground.color.opacity(0.8))
-                        .stroke(CustomColor.purpleOutlineBackground.color, lineWidth: 4)
+                        .fill(CustomColor.purpleBackground.color)
+                        .opacity(0.8)
+                        .overlay(
+                            RoundedRectangle(cornerRadius: 10)
+                                .stroke(CustomColor.purpleOutlineBackground.color, lineWidth: 4)
+                        )
                     
                     VStack(alignment: .center) {
                         Text("PROFILE")
@@ -78,7 +82,7 @@ struct ProfileView: View {
                             .clipShape(RoundedRectangle(cornerRadius: 10))
                             .frame(height: 100)
                             .padding(.horizontal, 30)
-                            .onChange(of: viewModel.userName) { _, newValue in
+                            .onChange(of: viewModel.userName) { newValue in
                                 if newValue.count > 10 {
                                     viewModel.userName = String(newValue.prefix(10))
                                 }

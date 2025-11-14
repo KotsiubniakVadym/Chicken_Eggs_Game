@@ -15,8 +15,12 @@ struct LinearProgressView: View {
         ZStack(alignment: .center) {
             ZStack(alignment: .leading) {
                 RoundedRectangle(cornerRadius: 10)
-                    .fill(Color.white.opacity(0.6))
-                    .stroke(Color.orange, lineWidth: 2)
+                    .fill(Color.white)
+                    .opacity(0.6)
+                    .overlay(
+                        RoundedRectangle(cornerRadius: 10)
+                            .stroke(Color.orange, lineWidth: 2)
+                    )
                 
                 RoundedRectangle(cornerRadius: 10)
                     .fill(

@@ -31,8 +31,12 @@ final class GameScene: SKScene, SKPhysicsContactDelegate {
         physicsWorld.gravity = CGVector(dx: 0, dy: -1)
         physicsWorld.contactDelegate = self
         
-        // Create eggs node
-        spawnTimer = Timer.scheduledTimer(timeInterval: timeIntervalEggsDrop, target: self, selector: #selector(spawnEggs), userInfo: nil, repeats: true)
+        /// Create eggs node
+        spawnTimer = Timer.scheduledTimer(timeInterval: timeIntervalEggsDrop,
+                                          target: self,
+                                          selector: #selector(spawnEggs),
+                                          userInfo: nil,
+                                          repeats: true)
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -55,7 +59,6 @@ final class GameScene: SKScene, SKPhysicsContactDelegate {
     }
     
     override func update(_ currentTime: TimeInterval) {
-        //TODO: - create logic when user lost
         for node in children {
             if node.position.y < frame.minY - 50 {
                 if node.name == "egg" {

@@ -36,8 +36,12 @@ struct MenuView: View {
             
             ZStack(alignment: .top) {
                 RoundedRectangle(cornerRadius: 10)
-                    .fill(CustomColor.purpleBackground.color.opacity(0.8))
-                    .stroke(CustomColor.purpleOutlineBackground.color, lineWidth: 4)
+                    .fill(CustomColor.purpleBackground.color)
+                    .opacity(0.8)
+                    .overlay(
+                        RoundedRectangle(cornerRadius: 10)
+                            .stroke(CustomColor.purpleOutlineBackground.color, lineWidth: 4)
+                    )
                 
                 VStack {
                     Text("MENU")

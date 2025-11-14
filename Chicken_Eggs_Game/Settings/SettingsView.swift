@@ -39,11 +39,15 @@ struct SettingsView: View {
             VStack(alignment: .center) {
                 ZStack(alignment: .top) {
                     RoundedRectangle(cornerRadius: 10)
-                        .fill(CustomColor.purpleBackground.color.opacity(0.8))
-                        .stroke(CustomColor.purpleOutlineBackground.color, lineWidth: 4)
+                        .fill(CustomColor.purpleBackground.color)
+                        .opacity(0.8)
+                        .overlay(
+                            RoundedRectangle(cornerRadius: 10)
+                                .stroke(CustomColor.purpleOutlineBackground.color, lineWidth: 4)
+                        )
                     
                     VStack(alignment: .center) {
-                        Text("Setting")
+                        Text("Settings")
                             .font(.system(size: 40,
                                           weight: .heavy,
                                           design: .monospaced))
