@@ -36,7 +36,9 @@ struct LinearProgressView: View {
             
             Text("\(Int(progress * 100))%")
                 .foregroundColor(.white)
-                .font(.largeTitle)
+                .font(.system(size: 20,
+                              weight: .heavy,
+                              design: .monospaced))
         }
     }
 }

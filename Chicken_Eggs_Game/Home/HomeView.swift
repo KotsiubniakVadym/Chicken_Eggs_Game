@@ -26,7 +26,7 @@ struct HomeView: View {
             VStack {
                 ZStack{
                     Button(action: {
-                        print("pick menu")
+                        changeScreen(changeScreen: .menu)
                     }, label: {
                         ZStack(alignment: .center) {
                             Image("Menu_Button")
@@ -36,7 +36,9 @@ struct HomeView: View {
                                 .padding(8)
                         }
                     })
-                    .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topTrailing)
+                    .frame(maxWidth: .infinity,
+                           maxHeight: .infinity,
+                           alignment: .topTrailing)
                     .padding(.trailing, 20)
                     
                     Button(action: {
@@ -50,7 +52,9 @@ struct HomeView: View {
                                 .padding(8)
                         }
                     })
-                    .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
+                    .frame(maxWidth: .infinity,
+                           maxHeight: .infinity,
+                           alignment: .topLeading)
                     .padding(.leading, 20)
                 }
                 
@@ -65,7 +69,9 @@ struct HomeView: View {
                             .scaledToFit()
                         
                         Text("PLAY")
-                            .font(.system(size: 60, weight: .bold, design: .monospaced))
+                            .font(.system(size: 60,
+                                          weight: .heavy,
+                                          design: .monospaced))
                             .minimumScaleFactor(0.8)
                             .foregroundColor(.white)
                             .padding(4)

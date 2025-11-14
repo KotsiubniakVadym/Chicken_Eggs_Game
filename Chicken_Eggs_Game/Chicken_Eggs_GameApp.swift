@@ -21,6 +21,8 @@ struct Chicken_Eggs_GameApp: App {
                 HomeView(screen: $screen)
             case .game:
                 GameView(viewModel: .init(screen: $screen))
+            case .menu:
+                MenuView(screen: $screen)
             }
         }
     }

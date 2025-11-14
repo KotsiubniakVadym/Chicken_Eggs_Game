@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Coin_Score.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
