@@ -47,7 +47,7 @@ struct MenuView: View {
                         .foregroundColor(.white)
                     
                     Button(action: {
-                        print("pick profile")
+                        changeScreen(changeScreen: .profile)
                     }, label: {
                         ZStack(alignment: .center) {
                             Image("Button_Background_Layer")

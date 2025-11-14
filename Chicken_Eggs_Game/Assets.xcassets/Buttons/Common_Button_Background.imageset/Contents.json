@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Common_Button_Background.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

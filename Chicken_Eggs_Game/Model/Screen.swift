@@ -12,4 +12,5 @@ enum Screen {
     case menu
     case info
     case setting
+    case profile
 }

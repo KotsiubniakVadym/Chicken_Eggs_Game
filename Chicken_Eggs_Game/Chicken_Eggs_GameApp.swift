@@ -27,6 +27,8 @@ struct Chicken_Eggs_GameApp: App {
                 InfoView(screen: $screen, viewModel: .init())
             case .setting:
                 SettingsView(screen: $screen)
+            case .profile:
+                ProfileView(screen: $screen)
             }
         }
     }
